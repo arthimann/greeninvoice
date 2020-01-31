@@ -1,0 +1,12 @@
+{
+    "name": "artim/greeninvoice",
+    "require": {
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invoice\\": "app/Invoice"
+        }
+    }
+}
